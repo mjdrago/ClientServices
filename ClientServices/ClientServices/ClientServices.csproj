@@ -205,10 +205,31 @@
     <Compile Include="Migrations\201805222250259_InitialMigration.Designer.cs">
       <DependentUpon>201805222250259_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805222324528_ClientInformation.cs" />
+    <Compile Include="Migrations\201805222324528_ClientInformation.Designer.cs">
+      <DependentUpon>201805222324528_ClientInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805222332012_CreationOfClients.cs" />
+    <Compile Include="Migrations\201805222332012_CreationOfClients.Designer.cs">
+      <DependentUpon>201805222332012_CreationOfClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805230111271_ClientContactPersons.cs" />
+    <Compile Include="Migrations\201805230111271_ClientContactPersons.Designer.cs">
+      <DependentUpon>201805230111271_ClientContactPersons.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ClientContactPerson.cs" />
+    <Compile Include="Models\ContactType.cs" />
+    <Compile Include="Models\LocationContact.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\ClientContact.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\PersonContact.cs" />
+    <Compile Include="Models\Position.cs" />
+    <Compile Include="Models\State.cs" />
+    <Compile Include="Models\TermReason.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -287,6 +308,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805222250259_InitialMigration.resx">
       <DependentUpon>201805222250259_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805222324528_ClientInformation.resx">
+      <DependentUpon>201805222324528_ClientInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805222332012_CreationOfClients.resx">
+      <DependentUpon>201805222332012_CreationOfClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805230111271_ClientContactPersons.resx">
+      <DependentUpon>201805230111271_ClientContactPersons.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

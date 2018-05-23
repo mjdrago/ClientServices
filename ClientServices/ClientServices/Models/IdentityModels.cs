@@ -29,5 +29,21 @@ namespace ClientServices.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<TermReason> TermReasons { get; set; }
+
+        public DbSet<State> States { get; set; }
+
+        public DbSet<Client> Clients { get; set; }
+
+        public DbSet<ClientContact> ClientContacs { get; set; }
+
+        public DbSet<ContactType> ContactTypes { get; set; }
+
+        public DbSet<Position> Positions { get; set; }
+
+        public DbSet<ClientContactPerson> ClientContactPersons { get; set; }
+
+
     }
 }
