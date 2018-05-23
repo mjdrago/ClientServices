@@ -220,6 +220,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ClientContactPerson.cs" />
+    <Compile Include="Models\ClientVendorRelationship.cs" />
     <Compile Include="Models\ContactType.cs" />
     <Compile Include="Models\LocationContact.cs" />
     <Compile Include="Models\Client.cs" />
@@ -230,6 +231,8 @@
     <Compile Include="Models\Position.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\TermReason.cs" />
+    <Compile Include="Models\Vendor.cs" />
+    <Compile Include="Models\VendorContactPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
