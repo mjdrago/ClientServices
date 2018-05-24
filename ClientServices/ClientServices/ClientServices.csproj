@@ -227,6 +227,8 @@
     <Compile Include="Models\ClientVendorJunction.cs" />
     <Compile Include="Models\ClientVendorRelationship.cs" />
     <Compile Include="Models\ContactType.cs" />
+    <Compile Include="Models\ContractInfo.cs" />
+    <Compile Include="Models\FormularyType.cs" />
     <Compile Include="Models\LocationContact.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\ClientContact.cs" />
@@ -234,6 +236,8 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PersonContact.cs" />
     <Compile Include="Models\Position.cs" />
+    <Compile Include="Models\PricingType.cs" />
+    <Compile Include="Models\ProgramType.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\TermReason.cs" />
     <Compile Include="Models\Vendor.cs" />

@@ -22,5 +22,13 @@ namespace ClientServices.Models
 
         public virtual Position Position { get; set; }
         public int PositionId { get; set; }
+
+        public string Name
+        {
+            get
+            {
+                return string.Format("{0} {1}", this.FirstName, this.LastName);
+            }
+        }
     }
 }
