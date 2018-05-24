@@ -217,9 +217,14 @@
     <Compile Include="Migrations\201805230111271_ClientContactPersons.Designer.cs">
       <DependentUpon>201805230111271_ClientContactPersons.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805240010089_VendorTables.cs" />
+    <Compile Include="Migrations\201805240010089_VendorTables.Designer.cs">
+      <DependentUpon>201805240010089_VendorTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ClientContactPerson.cs" />
+    <Compile Include="Models\ClientVendorJunction.cs" />
     <Compile Include="Models\ClientVendorRelationship.cs" />
     <Compile Include="Models\ContactType.cs" />
     <Compile Include="Models\LocationContact.cs" />
@@ -320,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805230111271_ClientContactPersons.resx">
       <DependentUpon>201805230111271_ClientContactPersons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805240010089_VendorTables.resx">
+      <DependentUpon>201805240010089_VendorTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

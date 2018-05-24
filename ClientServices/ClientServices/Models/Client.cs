@@ -25,5 +25,7 @@ namespace ClientServices.Models
         public int TermReasonId { get; set; }
 
         public bool ClosedClientIndicator { get; set; }
+
+        public virtual ICollection<ClientVendorJunction> Vendors { get; set; }
     }
 }

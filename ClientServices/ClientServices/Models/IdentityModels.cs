@@ -44,6 +44,14 @@ namespace ClientServices.Models
 
         public DbSet<ClientContactPerson> ClientContactPersons { get; set; }
 
+        public DbSet<Vendor> Vendors { get; set; }
+
+        public DbSet<VendorContactPerson> VendorContactPersons { get; set; }
+
+        public DbSet<ClientVendorRelationship> ClientVendorRelationships { get; set; }
+
+        public DbSet<ClientVendorJunction> ClientVendorJunctions { get; set; }
+
 
     }
 }
