@@ -30,5 +30,7 @@ namespace ClientServices.Models
         public virtual ICollection<ContractFormularyJunction> Formularies { get; set; }
 
         public virtual ICollection<ContractProgramJunction> Programs { get; set; }
+
+        public virtual ICollection<RatePeriod> RatePeriods { get; set; }
     }
 }

@@ -229,6 +229,10 @@
     <Compile Include="Migrations\201805290330442_ContractTablesFnl.Designer.cs">
       <DependentUpon>201805290330442_ContractTablesFnl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805290507327_RatesAdded.cs" />
+    <Compile Include="Migrations\201805290507327_RatesAdded.Designer.cs">
+      <DependentUpon>201805290507327_RatesAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ClientContactPerson.cs" />
@@ -248,6 +252,9 @@
     <Compile Include="Models\Position.cs" />
     <Compile Include="Models\PricingType.cs" />
     <Compile Include="Models\ProgramType.cs" />
+    <Compile Include="Models\Rate.cs" />
+    <Compile Include="Models\RatePeriod.cs" />
+    <Compile Include="Models\RateType.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\TermReason.cs" />
     <Compile Include="Models\Vendor.cs" />
@@ -348,6 +355,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805290330442_ContractTablesFnl.resx">
       <DependentUpon>201805290330442_ContractTablesFnl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805290507327_RatesAdded.resx">
+      <DependentUpon>201805290507327_RatesAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

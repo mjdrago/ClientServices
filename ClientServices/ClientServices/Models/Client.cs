@@ -27,5 +27,7 @@ namespace ClientServices.Models
         public bool ClosedClientIndicator { get; set; }
 
         public virtual ICollection<ClientVendorJunction> Vendors { get; set; }
+
+        public virtual ICollection<ContractInfo> Contracts { get; set; }
     }
 }
