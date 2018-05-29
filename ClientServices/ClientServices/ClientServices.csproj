@@ -221,13 +221,23 @@
     <Compile Include="Migrations\201805240010089_VendorTables.Designer.cs">
       <DependentUpon>201805240010089_VendorTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805290326388_FinishedContract.cs" />
+    <Compile Include="Migrations\201805290326388_FinishedContract.Designer.cs">
+      <DependentUpon>201805290326388_FinishedContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805290330442_ContractTablesFnl.cs" />
+    <Compile Include="Migrations\201805290330442_ContractTablesFnl.Designer.cs">
+      <DependentUpon>201805290330442_ContractTablesFnl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ClientContactPerson.cs" />
     <Compile Include="Models\ClientVendorJunction.cs" />
     <Compile Include="Models\ClientVendorRelationship.cs" />
     <Compile Include="Models\ContactType.cs" />
+    <Compile Include="Models\ContractFormularyJunction.cs" />
     <Compile Include="Models\ContractInfo.cs" />
+    <Compile Include="Models\ContractProgramJunction.cs" />
     <Compile Include="Models\FormularyType.cs" />
     <Compile Include="Models\LocationContact.cs" />
     <Compile Include="Models\Client.cs" />
@@ -332,6 +342,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805240010089_VendorTables.resx">
       <DependentUpon>201805240010089_VendorTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805290326388_FinishedContract.resx">
+      <DependentUpon>201805290326388_FinishedContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805290330442_ContractTablesFnl.resx">
+      <DependentUpon>201805290330442_ContractTablesFnl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

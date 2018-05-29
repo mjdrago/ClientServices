@@ -52,6 +52,16 @@ namespace ClientServices.Models
 
         public DbSet<ClientVendorJunction> ClientVendorJunctions { get; set; }
 
+        public DbSet<ContractInfo> ContractInfo { get; set; } 
 
+        public DbSet<FormularyType> FormularyTypes { get; set; }
+
+        public DbSet<ProgramType> ProgramTypes { get; set; }
+
+        public DbSet<PricingType> PricingTypes { get; set; }
+
+        public DbSet<ContractFormularyJunction> ContractFormularyJunctions { get; set; }
+
+        public DbSet<ContractProgramJunction> ContractProgramJunctions { get; set; }
     }
 }
